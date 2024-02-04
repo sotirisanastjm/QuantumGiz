@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body section{
+    margin-bottom: 6rem;
+}
+body{
+    background: theme("colors.black");
+    color: theme("colors.white");
+}
+
+@media (min-width: 768px) {
+    body section {
+        margin-bottom: 10rem;
+    }
+}
+a:hover{
+    color: #C7C8CC;
+}
