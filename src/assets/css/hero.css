@@ -1,0 +1,13 @@
+.heroImage{
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+}
+.heroImage:after{
+    position: absolute;
+    content: '';
+    inset: 0;
+    background-color: rgba(0, 0, 0, .5);
+    z-index: -9999999;
+}

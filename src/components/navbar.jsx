@@ -10,14 +10,14 @@ export const NavBar= () =>{
     }
     return (
         <nav>
-            <div className="px-6 py-4 flex flex-row justify-between bg-blue-dark">
+            <div className="px-6 py-4 flex flex-row justify-between bg-blue-black">
                 <div className="flex flex-row">
                     <Link className="text-xl font-bold hover:text-white" to="/">QuantumGiz</Link>
                     <img width={32} src="/src/assets/images/QuantumGiz.png"></img>
                 </div>
                 <div className="hidden md:flex flex-row justify-center md:space-x-8 uppercase font-bold">
                     <Link to="/">Home</Link>
-                    <Link to="/collection">Collection</Link>
+                    <Link to="/gallery">Gallery</Link>
                     <Link to="/cart">Shopping Cart</Link>
                     <Link to="/contact">Contact us!</Link>
                 </div>
@@ -38,7 +38,7 @@ export const NavBar= () =>{
                     <div className="h-[60%]">
                         <ul className="space-y-10 uppercase font-bold text-2xl text-white">
                             <li><Link onClick={toggleMenu} className="textNav textShadow" to="/">Home</Link></li>
-                            <li><Link onClick={toggleMenu} className="textNav textShadow" to="/collection">Collection</Link></li>
+                            <li><Link onClick={toggleMenu} className="textNav textShadow" to="/gallery">Gallery</Link></li>
                             <li><Link onClick={toggleMenu} className="textNav textShadow" to="/cart">Shopping Cart</Link></li>
                             <li><Link onClick={toggleMenu} className="textNav textShadow" to="/contact">Contact us!</Link></li>
                         </ul>
