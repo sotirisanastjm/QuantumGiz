@@ -12,7 +12,7 @@ export const Hero = (props) => {
 
     if (window.innerWidth < 768) {
         containerStyle={
-            backgroundImage: `url(${mobileImg})`,
+            backgroundImage: `url(${mobileImg ? mobileImg : heroImg })`,
         };
     }
     

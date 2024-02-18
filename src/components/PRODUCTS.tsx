@@ -1,39 +1,46 @@
 import React from 'react'
-import image1 from '../assets/images/AppleWatch.jpg'
+import hplaptop from '../assets/images/Product-Images/hplaptop.jpg'
+import applewatch from '../assets/images/Product-Images/applewatch.jpg'
+import xiaomiphone from '../assets/images/Product-Images/xiaomiphone.jpg'
+import switchcontroller from '../assets/images/Product-Images/switchcontroller.jpg'
+
 export const PRODUCTS = [
     {
         id:1,
         name:"Apple Watch 2023",
         description:"Very good Watch",
         brand:"Apple",
+        category:"Watch",
         price:399.99,
         image:{
-            img: image1,
+            img: applewatch,
             alt: "Apple Watch",
         },
 
     },
     {
         id:2,
-        name:"Apple Watch 2023",
-        description:"Very good Watch",
-        brand:"Apple",
-        price:399.99,
+        name:"HP Laptop 2021",
+        description:"Very Fast Laptop",
+        brand:"HP",
+        category:"Laptop",
+        price:699.99,
         image:{
-            img: image1,
-            alt: "Apple Watch",
+            img: hplaptop,
+            alt: "HP Laptop",
         },
 
     },
     {
         id:3,
-        name:"Apple Watch 2023",
-        description:"Very good Watch",
-        brand:"Apple",
-        price:399.99,
+        name:"Xiaomi 2024",
+        description:"Best Budget Phone",
+        brand:"Xiaomi",
+        category:"Mobile",
+        price:159.99,
         image:{
-            img: image1,
-            alt: "Apple Watch",
+            img: xiaomiphone,
+            alt: "xiaomi phone",
         },
 
     },
@@ -42,9 +49,10 @@ export const PRODUCTS = [
         name:"Apple Watch 2023",
         description:"Very good Watch",
         brand:"Apple",
+        category:"Watch",
         price:399.99,
         image:{
-            img: image1,
+            img: switchcontroller,
             alt: "Apple Watch",
         },
 
