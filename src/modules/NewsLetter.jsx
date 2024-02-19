@@ -17,7 +17,7 @@ export const NewsLetter = () => {
             <div className='text-md font-medium'>
                 Thank you for your interest in our newsletter!<br /><br />
                 Please note that the newsletter subscription feature is currently disabled as this website is for demonstration purposes only. You won't be able to submit your subscription at this time.<br /><br />
-                Feel free to explore the rest of our site, and if you have any questions or need assistance, reach out to us at [your contact email or support email].<br /><br />
+                Feel free to explore the rest of our site<br /><br />
                 Thank you for your understanding.<br /><br />
                 Best regards,<br />
             </div>

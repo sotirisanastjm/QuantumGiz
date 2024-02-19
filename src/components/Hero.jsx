@@ -23,7 +23,7 @@ export const Hero = (props) => {
             <div className='flex flex-col w-[80%] md:w-[55%] px-8 items-start'>
                 <h2 className='text-2xl md:text-6xl font-bold'>{herotitle}</h2>
                 <h3 className='text-xl md:text-2xl font-medium my-4 md:my-6'>{herosub}</h3>
-                <Link to="/gallery" className='btn'><span className='btn-hero'>{btntxt}</span></Link>
+                <Link to="/products" className='btn'><span className='btn-hero'>{btntxt}</span></Link>
             </div>
         </div>
     </div>
