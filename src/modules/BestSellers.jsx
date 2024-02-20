@@ -23,7 +23,6 @@ export const BestSellers = () => {
                     slidesPerView={1}
                     spaceBetween={10}
                     breakpoints={{
-                        // Add breakpoints for different screen sizes
                         640: {
                           slidesPerView: 2,
                           spaceBetween: 10, 

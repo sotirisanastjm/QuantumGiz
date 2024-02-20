@@ -12,7 +12,7 @@ export const ProductInfo = () => {
       }
 
   return (
-    <section className='container mx-auto p-6 mt-28 space-y-28'>
+    <section className='container mx-auto p-6 mt-28 space-y-24'>
         <div className='flex flex-col sm:flex-row gap-10 justify-evenly'>
             <div className='self-center w-2/3 sm:w-1/3 h-full'>
                 <img className='rounded-xl w-full h-full' alt={productData.image.alt} src={productData.image.img}/>
