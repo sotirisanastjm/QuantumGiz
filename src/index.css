@@ -65,22 +65,18 @@ a:hover{
   }
   
   .btn:active .btn-top,
-  .btn:hover .btn-hero  {
+  .btn:active .btn-hero  {
     transform: translateY(0);
   }
 
 .productCard-inner{
-  border-radius:0.75em;
   border:1px solid theme("colors.blue.black");
   background: theme("colors.white");
   transform: translate(-6px, -6px);
   transition: transform 0.1s ease;
 }
-@screen md{
-  .productCard-inner:hover{
-    transform: translate(-3px, -3px);
-  }
- 
+.productCard-inner:has(button:not(button:active)):has(a:active):active{
+  transform: translate(-3px, -3px);
 }
 
 .swiper {

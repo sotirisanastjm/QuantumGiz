@@ -7,6 +7,7 @@ import {ProductCard} from '../components/ProductCard'
 export const Recommendations = ({product}) => {
 
     const products= PRODUCTS.filter(productData => productData.category === product.category && productData.id != product.id);
+    console.log(products);
 
     if(products.length==0)
         return null;
@@ -23,16 +24,20 @@ export const Recommendations = ({product}) => {
                 modules={[Pagination]}
                 className="mySwiper"
                 slidesPerView={1}
-                centeredSlides={true}
+                centeredSlides={false}
                 spaceBetween={10}
                 breakpoints={{
-                    640: {
+                    680: {
                         slidesPerView: 2,
                         spaceBetween: 10, 
                     },
                     980: {
+                        slidesPerView: 3, 
+                        spaceBetween: 10, 
+                    },
+                    1280: {
                         slidesPerView: 4, 
-                        spaceBetween: 0, 
+                        spaceBetween: 10, 
                     },
                     }}
             >
