@@ -6,9 +6,9 @@ import {Home}  from "./pages/home";
 import {Products} from "./pages/Products";
 import {Notfound} from  "./pages/404";
 import {ProductInfo}  from "./modules/ProductInfo";
-import {BestSellers} from "./modules/BestSellers";
 import { CartProvider } from "./context/CartContext";
 import {Cart} from "./pages/cart";
+import {Contact} from "./pages/contact";
 
 function App() {
   return (
@@ -17,14 +17,14 @@ function App() {
           <Router>
             <NavBar />
             <main>
-            <Routes>
-              <Route path='/' element={<Home/>}/>
-              <Route path='/products' element={<Products />}/>
-              <Route path='/product-info/:name' element={<ProductInfo/>}/>
-              <Route path='/cart' element={<Cart/>}/>
-              <Route path='/contact'/>
-              <Route path="*" element={<Notfound />} />
-            </Routes>
+              <Routes>
+                <Route path='/' element={<Home/>}/>
+                <Route path='/products' element={<Products />}/>
+                <Route path='/product-info/:name' element={<ProductInfo/>}/>
+                <Route path='/cart' element={<Cart/>}/>
+                <Route path='/contact' element={<Contact/>}/>
+                <Route path="*" element={<Notfound />} />
+              </Routes>
             </main>
             <Footer/>
           </Router>

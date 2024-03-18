@@ -27,7 +27,7 @@ export const Features = () => {
     return (
     <section className="container mx-auto">
         <div className="flex md:flex-row flex-col px-6">
-            <div className='grid grid-rows-3 md:grid-rows-1 md:grid-cols-3 gap-8'>
+            <div className='grid grid-cols-1 md:grid-cols-3 gap-8'>
             {features.map((slide, index) => (<Feature key={index} data={slide} />))}
             </div>
         </div>
