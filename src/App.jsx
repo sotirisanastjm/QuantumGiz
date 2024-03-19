@@ -1,5 +1,6 @@
 import './App.css'
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom'
+
 import {NavBar}  from "./modules/NavBar";
 import {Footer}  from "./modules/footer";
 import {Home}  from "./pages/home";

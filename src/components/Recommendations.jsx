@@ -7,7 +7,6 @@ import {ProductCard} from '../components/ProductCard'
 export const Recommendations = ({product}) => {
 
     const products= PRODUCTS.filter(productData => productData.category === product.category && productData.id != product.id);
-    console.log(products);
 
     if(products.length==0)
         return null;

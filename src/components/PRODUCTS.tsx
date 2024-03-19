@@ -272,7 +272,7 @@ function getProductData(id: number) {
     let productData = PRODUCTS.find(product => product.id === id);
     
     return productData == undefined ? () => {
-        console.log("Error, Product does not exist");
+        
         return undefined
     } 
     : productData;
