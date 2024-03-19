@@ -12,14 +12,14 @@ export const ProductCard = (props) => {
   
   return (
     <div className='bg-blue-black rounded-xl'>
-      <div className='productCard-inner space-y-6 bg-white p-6 rounded-xl min-w-72'>
+      <div className='productCard-inner space-y-6 bg-[#FFFFFF] p-6 rounded-xl min-w-72'>
         <Link to={`/product-info/${props.name}`} state={props} className="flex flex-col">
           <span className='text-xs text-blue-dark font-black'>{props.category}</span>
           <h3 className='text-xl mt-2 text-blue-black font-medium'>{props.name}</h3>
         </Link>
         <div>
-          <Link to={`/product-info/${props.name}`} state={props}>
-            <img className='w-full h-32 object-cover rounded-md' src={props.image.img} alt={props.image.alt}></img>  
+          <Link to={`/product-info/${props.name}`} state={props} className='flex justify-center items-center'>
+            <img className='w-fit h-32 object-contain rounded-md' src={props.image.img} alt={props.image.alt}></img>  
           </Link>
         </div>
         <div className='flex flex-row justify-between items-center'>

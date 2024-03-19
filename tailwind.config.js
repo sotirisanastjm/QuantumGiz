@@ -25,7 +25,7 @@ export default {
         'bright': '#205295',
         'light': '#2C74B3',
       },
-      'white':    '#EEEEEE',
+      'white':    '#FFFFFF',
       'black':    '#212121',
     }
   },

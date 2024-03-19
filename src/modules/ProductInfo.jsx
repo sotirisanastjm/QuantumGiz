@@ -19,16 +19,16 @@ export const ProductInfo = () => {
   return (
     <section className='container mx-auto p-6 mt-28 space-y-24'>
         <div className='flex flex-col sm:flex-row gap-10 justify-evenly'>
-            <div className='self-center w-2/3 sm:w-1/3 h-full'>
+            <div className='self-center sm:w-1/3 h-full'>
                 <img className='rounded-xl w-full h-full' alt={productData.image.alt} src={productData.image.img}/>
             </div>
-            <div className='flex flex-col gap-6 text-black items-start justify-center'>
+            <div className='flex flex-col gap-6 sm:w-1/2 text-black items-start justify-center'>
                 <div>
                     <span className='text-sm text-blue-dark font-black'>{productData.category}</span>
                     <h2 className='text-3xl md:text-5xl font-bold'>{productData.name}</h2>
                 </div>
                 <div>
-                    <h4 className='text-2xl font-medium '>Price: <span className='text-2xl font-bold'>{productData.price}</span></h4>
+                    <h4 className='text-2xl font-medium '>Price: $<span className='text-2xl font-bold'>{productData.price}</span></h4>
                     <h4 className='text-2xl font-medium '>Brand: {productData.brand}</h4>
                 </div>
                 <div>
@@ -62,7 +62,7 @@ export const ProductInfo = () => {
                         </div>
                     </>
                     :
-                    <button onClick={() => {cart.addOneToCart(productData.id)}}  className='mt-4 w-full btn'><span className='btn-top'>Add to Cart</span></button>
+                    <button onClick={() => {cart.addOneToCart(productData.id)}}  className='mt-4 w-full sm:w-1/2 btn'><span className='btn-top'>Add to Cart</span></button>
                 }
             </div>
         </div>

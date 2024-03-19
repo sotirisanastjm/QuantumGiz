@@ -24,7 +24,7 @@ export const Recommendations = ({product}) => {
                 modules={[Pagination]}
                 className="mySwiper"
                 slidesPerView={1}
-                centeredSlides={false}
+                centeredSlides={true}
                 spaceBetween={10}
                 breakpoints={{
                     680: {

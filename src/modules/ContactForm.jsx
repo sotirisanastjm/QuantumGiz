@@ -60,7 +60,7 @@ export const ContactForm = () => {
                                 value={formData.name}
                                 onChange={handleChange}
                                 placeholder="Your Name"
-                                className="block w-full border border-white rounded-md py-2 px-3"
+                                className="block w-full border bg-[#F7F7F7] border-white rounded-md py-2 px-3"
                                 required
                             />
                             <input
@@ -69,7 +69,7 @@ export const ContactForm = () => {
                                 value={formData.email}
                                 onChange={handleChange}
                                 placeholder="Your Email"
-                                className="block w-full border border-white rounded-md py-2 px-3"
+                                className="block w-full border bg-[#F7F7F7] border-white rounded-md py-2 px-3"
                                 required
                             />
                             <textarea
@@ -77,7 +77,7 @@ export const ContactForm = () => {
                                 value={formData.message}
                                 onChange={handleChange}
                                 placeholder="Your Message"
-                                className="block w-full border border-white rounded-md py-2 px-3 resize-none"
+                                className="block w-full border bg-[#F7F7F7] border-white rounded-md py-2 px-3 resize-none"
                                 rows="5"
                                 required
                             ></textarea>
