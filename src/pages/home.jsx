@@ -1,9 +1,9 @@
 import React from "react";
-import  {HeroSlider}  from "../modules/HeroSlider";
-import {BestSellers} from "../modules/BestSellers";
-import { Testimonial } from "../modules/testimonial";
-import { Features } from "../modules/Features";
-import { NewsLetter } from "../modules/NewsLetter";
+import  {HeroSlider}  from '../modules/HeroSlider';
+import {BestSellers} from '../modules/BestSellers';
+import { Testimonial } from '../modules/Testimonial';
+import { Features } from '../modules/Features';
+import { NewsLetter } from '../modules/NewsLetter';
 
 export const Home = () =>{
    
