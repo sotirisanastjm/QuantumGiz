@@ -4,7 +4,6 @@ import { useState } from 'react';
 import { Popup } from '../components/Popup';
 import { CartContext } from "../context/CartContext";
 import { useContext } from "react";
-import { getProductData } from "../components/PRODUCTS";
 import { CartProduct } from "../components/CartProduct";
 
 export const NavBar= () =>{
