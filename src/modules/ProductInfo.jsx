@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link, useLocation } from 'react-router-dom';
 import { Notfound } from '../pages/404';
-import { Recommendations } from '../components/recommendations';
+import { Recommendations } from '../components/Recommendations';
 import { CartContext } from '../context/CartContext';
 import { useContext } from 'react';
 
