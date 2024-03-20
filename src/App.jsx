@@ -1,15 +1,15 @@
 import './App.css'
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom'
 
-import {NavBar}  from "./modules/NavBar";
-import {Footer}  from "./modules/footer";
-import {Home}  from "./pages/home";
-import {Products} from "./pages/Products";
-import {Notfound} from  "./pages/404";
-import {ProductInfo}  from "./modules/ProductInfo";
-import { CartProvider } from "./context/CartContext";
-import {Cart} from "./pages/cart";
-import {Contact} from "./pages/contact";
+import {NavBar}  from './modules/navbar';
+import {Footer}  from './modules/footer';
+import {Home}  from './pages/home';
+import {Products} from './pages/Products';
+import {Notfound} from  './pages/404';
+import {ProductInfo}  from './modules/ProductInfo';
+import { CartProvider } from './context/CartContext';
+import {Cart} from './pages/cart';
+import {Contact} from './pages/contact';
 import { useEffect } from 'react';
 
 function ScrollToTop() {
