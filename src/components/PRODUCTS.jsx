@@ -268,7 +268,7 @@ import surface from '../assets/images/Product-Images/surface.jpeg'
     
 ];
 
-function getProductData(id: number) {
+function getProductData(id) {
     let productData = PRODUCTS.find(product => product.id === id);
     
     return productData == undefined ? () => {
