@@ -5,6 +5,7 @@ import { Popup } from '../components/Popup';
 import { CartContext } from "../context/CartContext";
 import { useContext } from "react";
 import { CartProduct } from "../components/CartProduct";
+import logo from '../assets/images/QuantumGiz.png'
 
 export const NavBar= () =>{
 
@@ -52,7 +53,7 @@ export const NavBar= () =>{
                 <div className="px-6 py-4 flex flex-row justify-between bg-blue-black">
                     <div className="flex flex-row">
                         <Link className="text-xl font-bold hover:text-white" to="/"><h1>QuantumGiz</h1></Link>
-                        <img width={32} src="/src/assets/images/QuantumGiz.png"></img>
+                        <img width={32} src={logo} alt="QuantumGiz"></img>
                     </div>
                     <div className="hidden md:flex flex-row justify-center md:space-x-8 uppercase font-bold">
                         <Link to="/">Home</Link>
