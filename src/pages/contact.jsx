@@ -2,6 +2,7 @@ import React from 'react'
 import { ContactForm } from '../modules/ContactForm'
 import { Headline } from '../modules/Headline'
 import { ContactFeatures } from '../modules/ContactFeatures'
+import { InfoCard } from '../modules/InfoCard'
 
 export const Contact = () => {
 
@@ -15,6 +16,7 @@ export const Contact = () => {
       <Headline {...headline}/>
       <ContactForm />
       <ContactFeatures />
+      <InfoCard />
     </>
   )
 }

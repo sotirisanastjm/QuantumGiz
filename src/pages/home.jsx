@@ -4,6 +4,8 @@ import {BestSellers} from '../modules/BestSellers';
 import { Testimonial } from '../modules/Testimonial';
 import { Features } from '../modules/Features';
 import { NewsLetter } from '../modules/NewsLetter';
+import { InfoCard } from "../modules/InfoCard";
+
 
 export const Home = () =>{
    
@@ -14,6 +16,7 @@ export const Home = () =>{
         <Testimonial />
         <Features />
         <NewsLetter/>
+        <InfoCard />
        </>
     );
 }
