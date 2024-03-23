@@ -22,7 +22,7 @@ export const InfoCard = () => {
                 </div>
                 <div class="group-hover:pb-10 transition-all duration-300 ">
                     <h2 class="font-semibold text-[#526D82] text-sm">Anastasiadis<br/>Sotiris</h2>
-                    <p class="text-[#526D82] text-xs">@senior_developer</p>
+                    <p class="text-[#526D82] text-xs">@junior_developer</p>
                 </div>
                 <div class="flex items-center transition-all duration-300  group-hover:bottom-3 -bottom-full absolute gap-2 justify-evenly w-full">
                     <div class="flex gap-3 text-2xl text-[#526D82] p-1 hover:p-2 transition-all duration-300  rounded-full shadow-sm">
