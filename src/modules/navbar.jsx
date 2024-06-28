@@ -12,14 +12,14 @@ export const NavBar= () =>{
     const [menuState, setMenuState]= useState('closed');
     const toggleMenu = () => {
         setMenuState(menuState === 'closed' ? 'open' : 'closed');
-        if(menuState === 'open'){
-            document.body.classList.add('overflow-y-hidden');
-
-        }else{
-            document.body.classList.remove('overflow-y-hidden');
-        }
     }
-
+    
+    if(menuState === 'open'){
+        document.body.classList.add('overflow-y-hidden');
+        
+    }else{
+        document.body.classList.remove('overflow-y-hidden');
+    }
     /* Cart config */
     const cart = useContext(CartContext);
     const productsCount = cart.items.reduce((sum, product) => sum + product.quantity, 0);
