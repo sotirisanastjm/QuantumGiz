@@ -12,6 +12,12 @@ export const NavBar= () =>{
     const [menuState, setMenuState]= useState('closed');
     const toggleMenu = () => {
         setMenuState(menuState === 'closed' ? 'open' : 'closed');
+        if(menuState === 'open'){
+            document.body.classList.add('overflow-y-hidden');
+
+        }else{
+            document.body.classList.remove('overflow-y-hidden');
+        }
     }
 
     /* Cart config */
