@@ -11,6 +11,10 @@ body{
     color: theme("colors.white");
 }
 
+.overflowHidden{
+  overflow-y: hidden;
+}
+
 @media (min-width: 768px) {
     body section {
         margin-bottom: 10rem;

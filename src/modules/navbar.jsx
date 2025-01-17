@@ -15,10 +15,10 @@ export const NavBar= () =>{
     }
     
     if(menuState === 'open'){
-        document.body.classList.add('overflow-y-hidden');
+        document.body.classList.add('overflowHidden');
         
     }else{
-        document.body.classList.remove('overflow-y-hidden');
+        document.body.classList.remove('overflowHidden');
     }
     /* Cart config */
     const cart = useContext(CartContext);
