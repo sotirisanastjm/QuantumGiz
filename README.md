@@ -1,30 +1,42 @@
-# React + TypeScript + Vite
+# QuantumGiz — Demo E‑Commerce Shop
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🛍️ **QuantumGiz** is a demo online store built with **React**, showcasing a clean, modern UI and essential shopping features — a hands-on project that underscores my skills in frontend development and state management.
 
-Currently, two official plugins are available:
+🔗 Live Demo: https://quantumgiz.netlify.app/  
+📚 Project Page: https://anast.dev/projects/MQ%3D%3D
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🎯 About This Project
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+This store was built as part of a learning journey into **React**, **React Router**, and **React Context/API** while implementing typical e‑commerce functionality:
 
-- Configure the top-level `parserOptions` property like this:
+- **Product listing** with images, names, and prices  
+- **Product detail** pages  
+- **Shopping cart** with add/remove items functionality  
+- **Cart summary** and checkout placeholder  
+- **Responsive design** for desktop and mobile
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+It demonstrates creating a structured React app, modular components, and managing shared state in a medium‑scale project.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+---
+
+## 🛠️ Tech Stack
+
+- **React** 
+- **React Router** for client‑side routing
+- **CSS Modules** / **SCSS** / **TailwindCss**
+- **Netlify** deployment
+
+---
+
+## 🧩 Features
+
+- 🏠 Home page with featured products  
+- 📦 Product detail views  
+- 🛒 Shopping cart UI with add/remove controls  
+- 📱 Fully responsive across devices  
+- ⚙️ Context‑based global cart state  
+- 🚀 Instant deployment via Netlify
+
+---
